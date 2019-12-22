@@ -35,11 +35,3 @@ function Get-QualiIntallersPathDetails {
         'VCredist8' = "$vsredistInstallersPath\8";
     }
 }
-
-
-function FunctionName {
-    param (
-        OptionalParameters
-    )
-    
-}
