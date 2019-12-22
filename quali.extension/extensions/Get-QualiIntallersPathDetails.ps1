@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-    Returns a hash with Quali's installers path
+    Returns a hash with installers network paths
 
 .EXAMPLE
     Get-QualiIntallersPathDetails
@@ -33,5 +33,12 @@ function Get-QualiIntallersPathDetails {
         'VCredist10' = "$vsredistInstallersPath\10";
         'VCredist9' = "$vsredistInstallersPath\9";
         'VCredist8' = "$vsredistInstallersPath\8";
+
+        'Jdk' = "$qualiUnattendIntallersPath\jdk";
+        'NodeJsLts' = "$qualiUnattendIntallersPath\nodejs-lts";
+        'Python27' = "$qualiUnattendIntallersPath\python27";
+        'Python38' = "$qualiUnattendIntallersPath\python38";
+        'Chrome' = "$qualiUnattendIntallersPath\chrome";
+        'Ruby' = "$qualiUnattendIntallersPath\ruby";
     }
 }

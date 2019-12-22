@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ruby.portable</id>
+    <version>2.3.0</version>
+    <title>Ruby (Portable)</title>
+    <authors>Yukihiro Matsumoto</authors>
+    <owners>Rob Reynolds</owners>
+    <licenseUrl>http://www.ruby-lang.org/en/about/license.txt</licenseUrl>
+    <projectUrl>http://rubyinstaller.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/ruby.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ruby – A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</description>
+    <summary>Ruby – A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</summary>
+    <tags>ruby language programming dynamic</tags>
+    <dependencies>
+      <dependency id="quali.extension" version="1.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>
