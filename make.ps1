@@ -34,8 +34,8 @@ function Publish {
     Get-ChildItem -Recurse -Path $outputPath -Filter "*.nupkg" | foreach { Copy-Item $_.FullName -Destination $chocolateyPacakgesNetworkFolder -Force -Confirm:$false }
 }
 
-if ($Clean -or $BuildAndPublish) { Clean }
-if ($Build -or $BuildAndPublish) { Build }
+if ($Clean) { Clean }
+if ($Build) { Build }
 
 if ($Publish -or $BuildAndPublish) {
     Clean
