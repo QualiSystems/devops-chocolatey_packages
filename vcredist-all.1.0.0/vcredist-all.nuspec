@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vcredist-all</id>
+    <version>1.0.0</version>
+    <title>Microsoft Visual C++ Runtime - all versions</title>
+    <authors>Microsoft</authors>
+    <owners>jberezanski</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
+    <projectUrl>https://support.microsoft.com/en-us/kb/2977003</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/jberezanski/ChocolateyPackages/17d25f2fb8a31d40b93a696e345c22a77913418f/icons/vs2017.png</iconUrl>
+    <description>Microsoft Visual C++ Redistributable installs run-time components of Visual C++ libraries. These components are required to run C++ applications that are developed using Visual Studio and link dynamically to Visual C++ libraries. The packages can be used to run such applications on a computer even if it does not have Visual Studio installed. These packages also install run-time components of C Runtime (CRT), Standard C++, MFC, C++ AMP, and OpenMP libraries.
+
+This metapackage installs packages for all Visual C++ Runtime releases since 2005.
+
+(Yes, dependencies on vcredist2015 and vcredist2017 are redundant, but are included here because other packages depend on them.)</description>
+    <summary>Run-time components that are required to run C++ applications that are built by using Visual Studio</summary>
+    <releaseNotes>Initial package release.</releaseNotes>
+    <tags>microsoft visual c++ runtime redistributable vcredist vcruntime admin</tags>
+    <dependencies>
+      <dependency id="vcredist2005" version="8.1.0.20160118" />
+      <dependency id="vcredist2008" version="9.0.30729.6161" />
+      <dependency id="vcredist2010" version="10.0.40219.2" />
+      <dependency id="vcredist2012" version="11.0.61031" />
+      <dependency id="vcredist2013" version="12.0.30501.20150616" />
+      <dependency id="vcredist140" version="14.10.25008" />
+      <dependency id="vcredist2015" version="14.0.24215.20170201" />
+      <dependency id="vcredist2017" version="14.10.25008" />
+    </dependencies>
+    <packageSourceUrl>https://github.com/jberezanski/ChocolateyPackages/tree/master/vcredist-all</packageSourceUrl>
+    <docsUrl>https://msdn.microsoft.com/library/jj620919.aspx</docsUrl>
+    <bugTrackerUrl>https://visualstudio.uservoice.com/forums/121579-visual-studio</bugTrackerUrl>
+  </metadata>
+</package>

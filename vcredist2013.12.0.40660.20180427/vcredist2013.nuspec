@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vcredist2013</id>
+    <version>12.0.40660.20180427</version>
+    <title>Visual C++ Redistributable Packages for Visual Studio 2013</title>
+    <authors>Microsoft</authors>
+    <owners>hoflogic</owners>
+    <projectUrl>https://support.microsoft.com/en-us/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/hoflogic/chocolatey-packages/6b60e9e97e4843e428ca1d17f3abb4c331e6a3cb/vcredist2013/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Visual C++ Redistributable Packages install run-time components that are required to run applications that are developed by using Visual Studio 2013, on computers that don't have Visual Studio 2013 installed. These packages install run-time components of these libraries: C Runtime (CRT), Standard C++, ATL, MFC, C++ AMP, and OpenMP.</description>
+    <summary>Run-time components that are required to run C++ applications that are built by using Visual Studio 2013</summary>
+    <releaseNotes>https://support.microsoft.com/en-us/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package</releaseNotes>
+    <tags>visual c++ redistributable 2013 studio admin</tags>
+    <packageSourceUrl>https://github.com/hoflogic/chocolatey-packages</packageSourceUrl>
+    <dependencies>
+      <dependency id="quali.extension" version="1.0.0.0" />      
+    </dependencies>
+  </metadata>
+</package>

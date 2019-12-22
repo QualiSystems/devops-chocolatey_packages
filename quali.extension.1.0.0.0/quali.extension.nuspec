@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>quali.extension</id>
+    <version>1.0.0.0</version>
+    <title>Quali Chocolatey Extensions</title>
+    <authors>Quali</authors>
+    <owners>Quali</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package provides helper functions for Quali's network Chocolatey packages installation.</description>
+    <summary>Helper functions</summary>
+    <copyright>© 2019 Quali</copyright>
+  </metadata>
+</package>
