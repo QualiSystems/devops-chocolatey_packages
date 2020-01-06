@@ -9,7 +9,10 @@
     <licenseUrl>https://www.preemptive.com/eula</licenseUrl>
     <projectUrl>https://www.preemptive.com/products/dotfuscator/overview</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Dotfuscator Pro</description>
+    <description>Dotfuscator Pro.
+    ### Example usage with license key:
+    choco install -y --force DotfuscatorPro --params="'/LicenseKey:LicenseID'"
+    </description>
     <releaseNotes />
     <packageSourceUrl>https://github.com/QualiSystems/devops-chocolatey_packages/tree/master/DotfuscatorPro</packageSourceUrl>
     <dependencies>
