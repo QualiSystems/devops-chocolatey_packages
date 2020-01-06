@@ -10,8 +10,12 @@
     <projectUrl>https://www.preemptive.com/products/dotfuscator/overview</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Dotfuscator Pro.
-    ### Example usage with license key:
-    choco install -y --force DotfuscatorPro --params="'/LicenseKey:LicenseID'"
+    ###
+    Example usage with license key:
+    choco install -y DotfuscatorPro --params="'/LicenseKey:LicenseID'"
+    
+    Example usage with license files:
+    choco install -y DotfuscatorPro --params="'/PrefFilePath:\\qsnas1\Storage\devops\unattended\Dotfuscator\dfusrprf.xml /DataFilePath:\\qsnas1\Storage\devops\unattended\Dotfuscator\dotfuscator.dat'"
     </description>
     <releaseNotes />
     <packageSourceUrl>https://github.com/QualiSystems/devops-chocolatey_packages/tree/master/DotfuscatorPro</packageSourceUrl>

@@ -40,5 +40,6 @@ function Get-QualiIntallersPathDetails {
         'Python38' = "$qualiUnattendIntallersPath\python38";
         'Chrome' = "$qualiUnattendIntallersPath\chrome";
         'Ruby' = "$qualiUnattendIntallersPath\ruby";
+        'Dotfuscator' = "$qualiUnattendIntallersPath\Dotfuscator";
     }
 }

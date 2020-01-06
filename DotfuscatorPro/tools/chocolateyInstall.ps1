@@ -1,4 +1,13 @@
-﻿$installersPath = (Get-QualiIntallersPathDetails).Path
+﻿$ErrorActionPreference = 'Stop'
+
+function Copy-IfNeeded([string]$sourceFilePath, [string]$destFileDirPath) {  
+  if(-not [string]::IsNullOrEmpty($sourceFilePath)) {
+    New-Item -ItemType Directory $destFileDirPath -Force -ErrorAction SilentlyContinue
+    Copy-Item -Path $sourceFilePath -Destination $destFileDirPath -Force
+  }
+}
+
+$installersPath = (Get-QualiIntallersPathDetails).Dotfuscator
 $packageParameters = Get-PackageParameters
 
 $packageArgs = @{
@@ -18,3 +27,9 @@ if (-not [string]::IsNullOrEmpty($licenseKey)) {
 }
 
 Install-ChocolateyPackage @packageArgs
+
+$destPrefFileDir = Join-Path $Env:LOCALAPPDATA 'PreEmptive Solutions\Dotfuscator Professional Edition\4.0'
+Copy-IfNeeded $packageParameters['PrefFilePath'] $destPrefFileDir
+
+$destdataFileDir = Join-Path $Env:ProgramData 'PreEmptive Solutions\Dotfuscator Professional Edition\4.0'
+Copy-IfNeeded $packageParameters['DataFilePath'] $destdataFileDir
