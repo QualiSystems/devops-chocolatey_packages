@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DotfuscatorPro</id>
+    <version>4.8.1000.21906</version>
+    <title>Dotfuscator Pro</title>
+    <authors>Quali</authors>
+    <owners>Quali</owners>
+    <licenseUrl>https://www.preemptive.com/eula</licenseUrl>
+    <projectUrl>https://www.preemptive.com/products/dotfuscator/overview</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dotfuscator Pro</description>
+    <releaseNotes />
+    <packageSourceUrl>https://github.com/QualiSystems/devops-chocolatey_packages/tree/master/DotfuscatorPro</packageSourceUrl>
+    <dependencies>
+      <dependency id="quali.extension" version="1.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -20,6 +20,7 @@
     <tags>google chrome web internet browser admin</tags>
     <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-coreteampackages/tree/master/automatic/googlechrome</packageSourceUrl>
     <dependencies>
+      <dependency id="quali.extension" version="1.0.0.0" />
       <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
   </metadata>
