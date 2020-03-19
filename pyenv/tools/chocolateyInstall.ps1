@@ -3,7 +3,7 @@ $installersFolder = (Get-QualiIntallersPathDetails).Path
 
 $packageName = 'pyenv-win'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = "$installersFolder\pyenv-win-1.2.4.zip"
+$url = "$installersFolder\pyenv-win-1.2.5.zip"
 
 $packageArgs = @{
     packageName   = $packageName
