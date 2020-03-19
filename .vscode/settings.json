@@ -1,6 +1,7 @@
 {
     "files.exclude": {
-        "**/.output\\": true,
-        "**/*.nupkg": true
+        "**/.output": true,
+        "**/*.nupkg": true,
+        "**/.unattended": true
     }
 }

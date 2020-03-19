@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>pyenv</id>
+    <version>1.2.4</version>
+    <title>pyenv-win</title>
+    <authors>David Gilady</authors>
+    <owners> Kiran Kumar Kotari</owners>
+    <licenseUrl>https://github.com/pyenv-win/pyenv-win/blob/v1.2.4/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pyenv-win/pyenv-win/tree/v1.2.4</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>pyenv for Windows</description>
+    <dependencies>
+      <dependency id="quali.extension" version="1.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>

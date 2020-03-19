@@ -1,2 +1,3 @@
-.output\
+.unattended
+.output
 *.nupkg
