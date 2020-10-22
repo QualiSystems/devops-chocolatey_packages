@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>azurestorageemulator</id>
+    <version>4.4.0</version>
+    <title>azurestorageemulator (Install)</title>
+    <authors>Microsoft</authors>
+    <owners>erichexter</owners>
+    <licenseUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</licenseUrl>
+    <projectUrl>https://azure.microsoft.com/en-us/documentation/articles/storage-use-emulator/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Microsoft Azure storage emulator provides a local environment that emulates the Azure Blob, Queue, and Table services for development purposes.</description>
+    <summary>The Microsoft Azure storage emulator provides a local environment that emulates the Azure Blob, Queue, and Table services for development purposes.</summary>
+    <releaseNotes />
+    <tags>azure storage emulator sdk</tags>
+    <packageSourceUrl>https://github.com/erichexter/ChocolateyPackages</packageSourceUrl>
+    <dependencies>
+      <dependency id="quali.extension" version="1.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>
